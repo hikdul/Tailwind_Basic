@@ -39,3 +39,6 @@ module.exports = {
 
 donde bg es background y se veria algo como `bg-lime-600` que se considera una clase predefinida. Recuerda que siempre se debe de tener tailwind corriendo. para personalizar los colores se puede seguir la siguiente [guia](https://tailwindcss.com/docs/customizing-colors)
 
+### Medidas
+
+basicamente son altos y anchos para poder trabajar con los espacios que ocupan nuestro elementos, para tener mas informacion a mano puede observar la documentacion en la siguiente [pagina](https://tailwindcss.com/docs/width)

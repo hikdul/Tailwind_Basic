@@ -6,6 +6,12 @@ module.exports = {
             colors:{
                 'azul-h': '#243cff',
                 'rojo-h': '#fc0320'
+            },
+            spacing:{
+                '42': '170px'
+            },
+            width:{
+                '43': '166px'
             }
         },
     },
