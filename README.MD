@@ -42,3 +42,7 @@ donde bg es background y se veria algo como `bg-lime-600` que se considera una c
 ### Medidas
 
 basicamente son altos y anchos para poder trabajar con los espacios que ocupan nuestro elementos, para tener mas informacion a mano puede observar la documentacion en la siguiente [pagina](https://tailwindcss.com/docs/width)
+
+### Estados
+
+una de las caracteristicas mas intenesantes de talwind es el manejo de estados, estos son por ejemplo focus, hover... y podremos crear validaciones directamente con css sin tener que utilizar JS u otro elemento.
