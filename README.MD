@@ -103,3 +103,7 @@ de este modo me reduce aplicar los cambios directamente desde las clases. Tambie
 ### flexbox
 
 no necesita presentacion, pero es un pequeno ejemplo de como aplicar flexbox y aplicar sus propiedades.
+
+### GRID
+
+en tailwind usar grid es bastante sencillo, incluso mas que usarlo con css directamente.

@@ -554,6 +554,24 @@ video {
   --tw-contain-style:  ;
 }
 
+.card {
+  display: grid;
+  height: 10rem;
+  width: 10rem;
+  place-content: center;
+  border-radius: 0.5rem;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .relative {
   position: relative;
 }
@@ -600,6 +618,10 @@ video {
   display: block;
 }
 
+.flex {
+  display: flex;
+}
+
 .hidden {
   display: none;
 }
@@ -618,6 +640,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[600px\] {
+  height: 600px;
 }
 
 .w-24 {
@@ -652,12 +678,72 @@ video {
   width: 100%;
 }
 
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.basis-1\/2 {
+  flex-basis: 50%;
+}
+
+.basis-1\/4 {
+  flex-basis: 25%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
 
 .list-decimal {
   list-style-type: decimal;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.place-content-between {
+  place-content: space-between;
+}
+
+.place-content-evenly {
+  place-content: space-evenly;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.self-center {
+  align-self: center;
 }
 
 .rounded {
@@ -693,6 +779,11 @@ video {
 .border-red-950 {
   --tw-border-opacity: 1;
   border-color: rgb(69 10 10 / var(--tw-border-opacity));
+}
+
+.border-blue-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
 .bg-\[\#333\] {
@@ -1101,10 +1192,6 @@ video {
 }
 
 @media (min-width: 350px) {
-  .ssm\:font-bold {
-    font-weight: 700;
-  }
-
   .ssm\:italic {
     font-style: italic;
   }
@@ -1116,6 +1203,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:basis-1\/3 {
+    flex-basis: 33.333333%;
+  }
+
   .sm\:bg-amber-200 {
     --tw-bg-opacity: 1;
     background-color: rgb(253 230 138 / var(--tw-bg-opacity));
