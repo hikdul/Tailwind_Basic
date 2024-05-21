@@ -35,23 +35,22 @@ module.exports = {
 
 ## Elementos a tomar en cuenta con Tailwind
 
-### Colores
-
+### Colores [ex.](./0.basic/src/index.html)
 donde bg es background y se veria algo como `bg-lime-600` que se considera una clase predefinida. Recuerda que siempre se debe de tener tailwind corriendo. para personalizar los colores se puede seguir la siguiente [guia](https://tailwindcss.com/docs/customizing-colors)
 
-### Medidas
+### Medidas [ex.](./0.basic/src/index.html)
 
 basicamente son altos y anchos para poder trabajar con los espacios que ocupan nuestro elementos, para tener mas informacion a mano puede observar la documentacion en la siguiente [pagina](https://tailwindcss.com/docs/width)
 
-### Estados
+### Estados [ex.](./0.basic/src/3-estados.html)
 
 una de las caracteristicas mas intenesantes de talwind es el manejo de estados, estos son por ejemplo focus, hover... y podremos crear validaciones directamente con css sin tener que utilizar JS u otro elemento.
 
-### Pseudoclases
+### Pseudoclases [ex.](0.basic/src/4-pseudoclases.html)
 
 uso de las pseudoclases de css; estos son por ejemplo after, before, etc.
 
-### Responsive Designe
+### Responsive Designe [ex.](0.basic/src/5-ResponsiveDesing.html)
 
 basicamente me amplia los datos basandose en la siguiente tabla
 
@@ -100,10 +99,14 @@ basicamente me amplia los datos basandose en la siguiente tabla
 de este modo me reduce aplicar los cambios directamente desde las clases. Tambien podremos modificar estos puntos de quiebre agregando el valor `screems` con la diferencio que al agregar un nuevo punto los que vienen por defecto quedan sin efecto alguno; asi que la recomendacion es agregar estos puntos de quiebre tambien. Si se introduce `screems` dentro de la propiedad `extends` simplemente se agrega un valor extra
 
 
-### flexbox
+### flexbox [ex.](0.basic/src/6-Flexbox.html)
 
-no necesita presentacion, pero es un pequeno ejemplo de como aplicar flexbox y aplicar sus propiedades.
+no necesita presentacion, pero es un pequeno ejemplo de como aplicar flexbox y aplicar sus propiedades. Se aplica con la propiedad *flex*
 
-### GRID
+### GRID [ex1](./0.basic/src/7-GRID.html) [ex2](./0.basic/src/7-GRID2.html)
 
-en tailwind usar grid es bastante sencillo, incluso mas que usarlo con css directamente.
+en tailwind usar grid es bastante sencillo, incluso mas que usarlo con css directamente. Se aplica con la propiedad *Grid*
+
+### Dark Mode [ex.](./0.basic/src/8-dark.html)
+
+aca se podra observar el modo oscuro en su explendor y se aplica mediante la propiedad *Dark*. Este modo se activa o mejor dicho esta vistas se obtienen dependiendo del modo(oscuro o claro) que aplique el explorador. Siendo el modo claro el que se lleve todos los datos actuales de la web y el modo oscuro quien aplique los cambios que se cree aca.
