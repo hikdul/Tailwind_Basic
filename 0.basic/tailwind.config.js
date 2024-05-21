@@ -12,6 +12,10 @@ module.exports = {
             },
             width:{
                 '43': '166px'
+            },
+            screens:{
+                'ssm': '350px',
+                'tablet':'900px'
             }
         },
     },

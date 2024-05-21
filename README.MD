@@ -50,3 +50,56 @@ una de las caracteristicas mas intenesantes de talwind es el manejo de estados, 
 ### Pseudoclases
 
 uso de las pseudoclases de css; estos son por ejemplo after, before, etc.
+
+### Responsive Designe
+
+basicamente me amplia los datos basandose en la siguiente tabla
+
+<table>
+  <thead>
+    <tr>
+      <th>Breakpoint</th>
+      <th>prefix</th>
+      <th>@media</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sm</td>
+      <td>640px</td>
+      <td>@media (min-width: 640px) { ... }</td>
+    </tr>
+    <tr>
+      <td>sm</td>
+      <td>640px</td>
+      <td>@media (min-width: 640px) { ... }</td>
+    </tr>
+    <tr>
+      <td>md</td>
+      <td>768px</td>
+      <td>@media (min-width: 768px) { ... }</td>
+    </tr>
+    <tr>
+      <td>lg</td>
+      <td>1024px</td>
+      <td>@media (min-width: 1024px) { ... }</td>
+    </tr>
+    <tr>
+      <td>xl</td>
+      <td>1280px</td>
+      <td>@media (min-width: 1280px) { ... }</td>
+    </tr>
+    <tr>
+      <td>2xl</td>
+      <td>1536px</td>
+      <td>@media (min-width: 1536px) { ... }</td>
+    </tr>
+  </tbody>
+</table>
+ 	
+de este modo me reduce aplicar los cambios directamente desde las clases. Tambien podremos modificar estos puntos de quiebre agregando el valor `screems` con la diferencio que al agregar un nuevo punto los que vienen por defecto quedan sin efecto alguno; asi que la recomendacion es agregar estos puntos de quiebre tambien. Si se introduce `screems` dentro de la propiedad `extends` simplemente se agrega un valor extra
+
+
+### flexbox
+
+no necesita presentacion, pero es un pequeno ejemplo de como aplicar flexbox y aplicar sus propiedades.
