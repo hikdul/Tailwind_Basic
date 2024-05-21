@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclases</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="p-4 ">
+    
+    <!-- After -->
+    <button class="bg-orange-600 w-32 p-3 rounded-md relative
+    after:content-[''] after:absolute after:left-32 after:border-8 after:border-transparent after:border-l-orange-700 after:top-4
+    ">Click Here</button>
+    
+    <!-- placeHolder -->
+    <input class="border ml-2 px-2 placeholder:text-orange-700 placeholder:italic"
+    type="text" placeholder=" in the Name Here!">
+    <br></br>
+    <br></br>
+
+    <!-- utilidad para inputs tipo file -->
+    <input 
+    title="file"
+    type="file"
+    class=" file:bg-violet-300 file:border-0 file:rounded-lg file:text-violet-800 file:font-semibold file:px-3 
+    hover:file:bg-violet-500" />
+
+    <br></br>
+    <br></br>
+
+    <!-- Marker: para dal estilos a las listas, basicamente es el marcador de las listas. -->
+
+    <ol class="list-decimal ml-6 marker:text-red-500 marker:font-bold">
+        <li class="">item</li>
+        <li class="">item</li>
+        <li class="">item</li>
+    </ol>
+    
+    <br></br>
+    <br></br>
+    <!-- Selection: para trabajar con la seleccion de texto-->
+    
+    <p class="selection:bg-green-600 selection:text-white">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, error quam. Necessitatibus fugiat quos dolores, dicta enim rem eos aliquam, quaerat omnis doloribus nemo porro accusantium dignissimos modi similique expedita!
+    </p>
+    <br></br>
+    <br></br>
+    <!-- first line or first letter-->
+    <p class="first-line:uppercase first-line:tracking-widest
+    first-letter:text-7xl first-letter:font-bold first-letter:mr-3 first-letter:float-left">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cum. Saepe necessitatibus nulla consequuntur quod temporibus voluptatibus, dolorem sit, error nam distinctio a accusantium nostrum facilis qui laudantium impedit porro!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cum. Saepe necessitatibus nulla consequuntur quod temporibus voluptatibus, dolorem sit, error nam distinctio a accusantium nostrum facilis qui laudantium impedit porro!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cum. Saepe necessitatibus nulla consequuntur quod temporibus voluptatibus, dolorem sit, error nam distinctio a accusantium nostrum facilis qui laudantium impedit porro!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cum. Saepe necessitatibus nulla consequuntur quod temporibus voluptatibus, dolorem sit, error nam distinctio a accusantium nostrum facilis qui laudantium impedit porro!
+    </p>
+    <!-- estos son de las mas utilizados-->
+    
+</bod>
+</html>

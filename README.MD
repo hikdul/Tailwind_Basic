@@ -46,3 +46,7 @@ basicamente son altos y anchos para poder trabajar con los espacios que ocupan n
 ### Estados
 
 una de las caracteristicas mas intenesantes de talwind es el manejo de estados, estos son por ejemplo focus, hover... y podremos crear validaciones directamente con css sin tener que utilizar JS u otro elemento.
+
+### Pseudoclases
+
+uso de las pseudoclases de css; estos son por ejemplo after, before, etc.
